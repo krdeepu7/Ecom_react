@@ -25,14 +25,14 @@ const EventsBanner = () => {
           <div className='event-card'>
             <h3>GET 30% Off</h3>
             <p>USE PROMO CODE</p>
-            <button>DINEWEEKENDSALE</button>
+            <button>GANDUSUJAN</button>
           </div>
         </div>
 
         <div className='event-banner-right'>
           <div className='event-banner-right-1'>
             <div className='details'>
-              <p>Flex Sweatshirt</p>
+              <p>DRESS</p>
               <div className='price'>
                 <span>$100.00</span>
                 <span>$75.00</span>
@@ -43,7 +43,7 @@ const EventsBanner = () => {
 
           <div className='event-banner-right-2'>
             <div className='details'>
-              <p>Flex Push Button Bomber</p>
+              <p>DRESS 2</p>
               <div className='price'>
                 <span>$225.00</span>
                 <span>$190.00</span>

@@ -1,23 +1,32 @@
-import React from 'react'
-import Image from 'next/image'
-import logo from '../src/assets/Logo.png'
-import {GrFacebookOption, GrTwitter, GrLinkedinOption} from 'react-icons/gr'
+import React from "react";
+import Image from "next/image";
+import logo from "../src/assets/Logo.png";
+import { GrFacebookOption, GrTwitter, GrLinkedinOption } from "react-icons/gr";
 
 const Footer = () => {
   return (
     <footer>
-      <div className='footer'>
-        <div className='logo'>
-          <Image src={logo} width={180} height={30} alt='logo' />
-          <p>Small, artisan label that offers a thoughtfully curated collection of high quality everyday essentials made.</p>
-          <div className='icon-container'>
-            <div><GrTwitter size={20} /></div>
-            <div><GrFacebookOption size={20} /></div>
-            <div><GrLinkedinOption size={20} /></div>
+      <div className="footer">
+        <div className="logo">
+          <Image src={logo} width={180} height={30} alt="logo" />
+          <p>
+            Small, artisan label that offers a thoughtfully curated collection
+            of high quality everyday essentials made.
+          </p>
+          <div className="icon-container">
+            <div>
+              <GrTwitter size={20} />
+            </div>
+            <div>
+              <GrFacebookOption size={20} />
+            </div>
+            <div>
+              <GrLinkedinOption size={20} />
+            </div>
           </div>
         </div>
 
-        <div className='footer-links'>
+        <div className="footer-links">
           <h3>Company</h3>
           <ul>
             <li>About</li>
@@ -28,7 +37,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className='footer-links'>
+        <div className="footer-links">
           <h3>Support</h3>
           <ul>
             <li>Support Carrer</li>
@@ -37,7 +46,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className='footer-links'>
+        <div className="footer-links">
           <h3>Contact</h3>
           <ul>
             <li>Whatsapp</li>
@@ -46,13 +55,17 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className='copyright'>
+      <div className="copyright">
         <p>Copyright © 2022 Dine Market</p>
-        <p>Design by. <span>Weird Design Studio</span></p>
-        <p>Code by. <span>shabrina12 on github</span></p>
+        <p>
+          Design by. <span>Weird Design Studio</span>
+        </p>
+        <p>
+          Code by. <span>shabrina12 on github</span>
+        </p>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

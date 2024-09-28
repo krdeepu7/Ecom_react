@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Image from 'next/image'
 import {CiSearch} from 'react-icons/ci'
 import {CgShoppingCart} from 'react-icons/cg'
-import logo from '../src/assets/Logo.png'
+import logo from '../src/assets/yug_logo.jpg'
 import Link from 'next/link'
 import {RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import { useStateContext } from '../context/StateContext';
@@ -15,12 +15,12 @@ const Navbar = ({Searchproducts}) => {
   return (
     <nav>
       <Link href='/'>
-        <Image src={logo} width={140} height={25} alt='logo' />
+        <Image src={logo} width={150} height={150} alt='logo' />
       </Link>
       <ul className='nav-links'>
-        <Link href='/female'><li>Female</li></Link>
-        <Link href='/male'><li>Male</li></Link>
-        <Link href='/kids'><li>Kids</li></Link>
+        <Link href='/female'><li>YOGA</li></Link>
+        <Link href='/male'><li>GYM</li></Link>
+        <Link href='/kids'><li>SPORTS WEAR</li></Link>
         <Link href='/products'><li>All Products</li></Link>
       </ul>
 
@@ -63,9 +63,9 @@ const Navbar = ({Searchproducts}) => {
                     <span className='cart-item-qty'>{totalQty}</span> 
                   </button>
               </Link> 
-              <Link href='/female'><li>Female</li></Link>
-              <Link href='/male'><li>Male</li></Link>
-              <Link href='/kids'><li>Kids</li></Link>
+              <Link href='/female'><li>YOGA</li></Link>
+              <Link href='/male'><li>GYM</li></Link>
+              <Link href='/kids'><li>Sports Wear</li></Link>
               <Link href='/products'><li>All Products</li></Link>
             </ul>
           </div>

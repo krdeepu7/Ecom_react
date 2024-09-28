@@ -13,20 +13,20 @@ const HeroBanner = () => {
     <header className='header'>
         <div className='header-left-side'>
             <div className='header-content'>
-                <span>Sale 70%</span>
-                <h1>An Industrial Take on Streetwear</h1>
-                <p>Anyone can beat you but no one can beat your outfit as long as you wear Dine outfits.</p>
+                {/* <span></span> */}
+                <h1>Let's have a good health</h1>
+                <p>Best accessories for gym and sports wear</p>
                 <Link href='/products'>
                      <button className='btn' type='button'><CgShoppingCart size={26} />  Start Shopping</button>
                 </Link>
             </div>
 
-            <div className='header-featured'>
+            {/* <div className='header-featured'>
                 <Image src={featured1} width={100} height={35} alt='img' />
                 <Image src={featured2} width={100} height={35} alt='img' />
                 <Image src={featured3} width={100} height={35} alt='img' />
                 <Image src={featured4} width={100} height={35} alt='img' />
-            </div>
+            </div> */}
         </div>
 
         <div className='header-right-side'>
